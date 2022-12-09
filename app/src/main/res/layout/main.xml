@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API 19"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Open Video(OPEN_DOCUMENT)"
+		android:onClick="openDocument"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API 1"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Open Video(GET_CONTENT)"
+		android:onClick="getContent"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Document uri:"
+		android:id="@+id/mainTextView1"
+		android:layout_marginTop="10dp"
+		android:textColor="#FF000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API 21"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Open Folder(OPEN_DOCUMENT_TREE)"
+		android:onClick="openDocumentTree"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Folder uri:"
+		android:textColor="#FF000000"
+		android:id="@+id/folder_uri_tv"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API 19"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Save Video(CREATE_DOCUMENT)"
+		android:onClick="saveDocument"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API 1"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Save Video Using MediaStore"
+		android:onClick="saveMedia"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Added in API *"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Save Video using Folder"
+		android:onClick="saveToFolder"/>
+
+</LinearLayout>
+
